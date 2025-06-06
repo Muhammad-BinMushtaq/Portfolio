@@ -43,13 +43,13 @@ const Techstack = () => {
     return (
         <motion.div
 
-            className="w-full max-w-5xl mx-auto bg-[#06061a] rounded-xl p-6 my-10 border border-gray-800"
+            className="w-[90%] max-w-5xl mx-auto bg-[#06061a] rounded-xl p-6 my-10 border border-gray-800"
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
         >
             <h2 className="text-4xl lg:text-6xl lg:mb-10 font-bold text-white mb-8 text-center">TECH STACK</h2>
-            <div className="relative flex flex-wrap justify-center gap-6 overflow-x-hidden  ">
+            <div className="relative flex flex-wrap justify-center gap-6 overflow-hidden   ">
                 {skills.map((skill, index) => (
                     <motion.div
                         key={index}
@@ -80,10 +80,10 @@ const Techstack = () => {
                     </motion.div>
                 ))}
             </div>
-            
-              
-              
-              
+
+
+
+
         </motion.div>
     );
 };

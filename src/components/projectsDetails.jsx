@@ -24,8 +24,8 @@ const ProjectsDetails = () => {
             id: 2,
             title: "Gym Management",
             description: "Complete system to manage gym members and payments.",
-            github: "https://github.com/yourusername/gym-management",
-            live: "",
+            github: "https://github.com/Muhammad-BinMushtaq/Gym-Management",
+            live: "https://github.com/Muhammad-BinMushtaq/Gym-Management",
             image: p2
         },
         {
@@ -56,9 +56,9 @@ const ProjectsDetails = () => {
     ];
 
     return (
-        <div className="bg-[#0D0D0D] text-[#F1F1F1] p-16 pt-12 flex flex-col gap-16 text-center">
+        <div className="bg-[#0D0D0D] text-[#F1F1F1] p-10 pt-12 flex flex-col gap-16 text-center">
 
-            <h1 className="tracking-tight text-5xl md:text-6xl lg:text-8xl font-bold  ">MY ALL PROJECTS</h1>
+            <h1 className="tracking-tight text-4xl md:text-7xl lg:text-8xl font-bold  ">ALL PROJECTS</h1>
 
             <div className="flex flex-wrap gap-10 items-center justify-center">
                 {ProjDetails.map((project, index) => (
@@ -72,7 +72,13 @@ const ProjectsDetails = () => {
                             scale: 1.05,
                             boxShadow: "0px 0px 20px rgba(123, 97, 255, 0.4)",
                         }}
-                        className="max-w-sm bg-[#1A1A1A] border border-[#2F2F2F] rounded-lg"
+
+                        whileTap={{
+                             scale: 0.95,
+                            boxShadow: "0px 0px 20px rgba(123, 97, 255, 0.4)",
+                        }}
+
+                        className="cursor-pointer max-w-sm bg-[#1A1A1A] border border-[#2F2F2F] rounded-lg"
                     >
                         <img className="rounded-t-lg" src={project.image} alt={project.title} />
 

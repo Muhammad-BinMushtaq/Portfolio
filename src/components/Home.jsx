@@ -16,11 +16,11 @@ const Home = () => {
 
       <Navbar />
       <Hero />
-      <Projects />
-      <section id="projects"><ProjectsDetails /></section>
-      <section id="about"><About /></section>
-      <section id="techstack"><Techstack /></section>
-      <section id="contact"><Contact/></section>
+      <Projects className='scroll-mt-30' />
+      <section id="projects" ><ProjectsDetails /></section>
+      <section id="about" className='scroll-mt-30'><About /></section>
+      <section id="techstack" className='scroll-mt-30'><Techstack /></section>
+      <section id="contact" className='scroll-mt-30'><Contact/></section>
       <Footer/>
 
      

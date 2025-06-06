@@ -10,26 +10,27 @@ const stats = [
 
 const services = [
   {
-    title: "Modern Web Development",
+    title: "Scalable Web Applications",
     icon: <FaCode />,
-    desc: "Crafting responsive, scalable front-ends using React, Tailwind CSS, and Framer Motion animations.",
+    desc: "Building modern, responsive, and scalable web apps using React, Tailwind CSS, and Framer Motion for seamless user experience.",
   },
   {
-    title: "Database Management",
+    title: "Relational Database Design",
     icon: <FaDatabase />,
-    desc: "Designing and handling MySQL databases with optimized queries and relational structures.",
+    desc: "Designing efficient and secure MySQL databases with relational integrity, optimized queries, and real-world application structures.",
   },
   {
-    title: "Data Structures & Algorithms",
+    title: "Data Structures & Problem Solving",
     icon: <FaCubes />,
-    desc: "Solving logical problems with a strong foundation in JavaScript-based DSA for optimal performance.",
+    desc: "Mastering core algorithms and JavaScript-based data structures to write optimized, high-performance code for real-world challenges.",
   },
   {
-    title: "Creative Animations",
+    title: "Creative Motion Design",
     icon: <FaBolt />,
-    desc: "Adding motion to interfaces using Framer Motion for enhanced user engagement and elegance.",
+    desc: "Crafting engaging micro-interactions and transitions using Framer Motion to elevate user experience with delightful animations.",
   },
 ];
+
 
 const AboutMe = () => {
   return (

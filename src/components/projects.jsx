@@ -17,7 +17,7 @@ const Projects = () => {
 
         <div className="w-full bg-[#5017ab98] py-12 px-4 overflow-hidden">
             <h1 className="tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-10 lg:mb-16 text-white text-center">
-                PROJECTS
+               TOP PROJECTS
             </h1>
 
             <div className="relative w-full">
@@ -35,7 +35,7 @@ const Projects = () => {
                     {[...projectImgs, ...projectImgs].map((img, index) => (
                         <div
                             key={index}
-                            className="min-w-[250px] sm:min-w-[300px] md:min-w-[400px] lg:min-w-[500px] xl:min-w-[600px] "
+                            className="min-w-[360px] sm:min-w-[400px] md:min-w-[400px] lg:min-w-[500px] xl:min-w-[600px] "
                         >
                             <img
                                 src={img}
